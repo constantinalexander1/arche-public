@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>Snake</title>
+<style type="text/css">
+body { margin: 0; overflow: hidden; }
+#score { 
+    position: absolute; 
+    margin: 5px; 
+    color: rgb(133, 115, 115);
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#pause-button {
+    width: 100%;
+    height: 2vw;
+    margin-top: 10px;
+    cursor: pointer;
+    align-items: start;
+}
+
+#score .point { position: static; display: inline-block; }
+#board { 
+    width: 100%; 
+    height: 100vh;
+    /* TASK BACKGROUND */
+    /* background-image: url("background2.png"); */
+    background-size: cover;
+}
+
+.point { position: absolute; width: 15px; height: 15px; background-color: rgb(167, 136, 136); border-radius: 5px; }
+
+/* TASK ADD SNAKE */
+.point.snake2 { background-color: rgb(247, 173, 75); }
+.point.snake3 { background-color: rgb(72, 97, 80); }
+
+/* TASK FOOD COLOR */
+.food1 { position: absolute; width: 10px; height: 10; background-color: rgb(72, 207, 23); border-radius: 8px; }
+.food2 { position: absolute; width: 20px; height: 20px; background-color: rgb(83, 173, 50); border-radius: 10px; }
+.food3 { position: absolute; width: 30px; height: 30px; background-color: rgb(129, 225, 94); border-radius: 15px; }
+
+/* TASK FOOD SIZE */
+.food4 { position: absolute; width: 40px; height: 40px; background-color: rgb(70, 246, 6); border-radius: 20px; }
+
+
+
+/* IGNORE */
+.fromDead { width: 6px; height: 6px; background-color: rgb(72, 207, 23); border-radius: 3px; }
+
+</style>
+<body>
+
+<div id="score">
+<div><span class="point"></span> [<code>← → ↑</code>] <span class="score"></span></div>
+<!-- <div><span class="point snake2"></span> [<code>Z X A</code>] <span class="score snake2"></span></div> -->
+<!-- <div><span class="point snake3"></span> [<code>N M B</code>] <span class="score snake3"></span></div> -->
+
+<!-- <img id="pause-button" src="play-btn-fill.svg" alt="Play Button"> -->
+</div>
+
+<div id="board"></div>
+
+<script type="text/javascript" src="snake.js"></script>
