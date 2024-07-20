@@ -1,4 +1,4 @@
-# Interaktive Python Script
+# Interactive Python Script
 
 ## Skills die durch Aufgaben abgedeckt werden
 
