@@ -1,0 +1,51 @@
+# Häufige verben, nomen und adjektive (teilweise ChatGPT generiert)
+verben = [
+    "sagen", "machen", "geben", "kommen", "schreiben", "lernen", "heißen",
+    "sollen", "wollen", "gehen", "essen", "wohnen", "wissen", "sehen",
+    "spielen", "arbeiten", "stehen", "finden", "bleiben", "liegen",
+    "verstehen", "denken", "sprechen", "lesen", "hören", "sitzen",
+    "vergessen", "tun", "dürfen", "glauben", "halten", "nennen", "mögen",
+    "zeigen", "bringen", "leben", "schlafen", "fahren", "fragen", "setzen",
+    "kennen", "stellen", "brauchen", "erzählen", "versuchen", "reden",
+    "helfen", "treffen", "suchen", "legen", "anfangen", "bekommen", "warten",
+    "laufen", "einschlafen", "lassen", "beginnen", "folgen", "erklären",
+    "ziehen", "scheinen", "fallen", "gehören", "ansehen", "fehlen", "bedeuten",
+    "studieren", "möchten", "entstehen", "erhalten", "bestehen", "erinnern",
+    "sich etwas merken", "schließen", "einladen", "aufstehen", "vorstellen",
+    "handeln", "erreichen", "meinen", "tragen", "schaffen", "verlieren", "waschen",
+    "vergleichen", "erkennen", "entwickeln", "öffnen", "aussehen", "verbinden",
+    "führen", "gewinnen", "bieten", "interessieren", "anbieten",
+]
+
+nomen = [
+    "Jahr", "Zeit", "Tag", "Frau", "Mann", "Kind", "Leben", "Welt", "Stadt",
+    "Land", "Mensch", "Haus", "Arbeit", "Frage", "Antwort", "Schule", "Gruppe",
+    "Problem", "Fall", "Beispiel", "Bild", "Wort", "Buch", "Name", "Spiel",
+    "Zimmer", "Telefon", "Fernsehen", "Film", "Musik", "Bildung", "Universität",
+    "Studium", "Lehre", "Prüfung", "Note", "Schüler", "Student", "Lehrer",
+    "Professor", "Kollege", "Chef", "Kollegin", "Arzt", "Patient", "Krankenhaus",
+    "Gesundheit", "Krankheit", "Problem", "Lösung", "Entwicklung", "Forschung",
+    "Ergebnis", "Ziel", "Plan", "Idee", "Information", "Daten", "Technologie",
+    "Internet", "Computer", "Programm", "Software", "Hardware", "Projekt",
+    "Aufgabe", "Lösung", "Möglichkeit", "Chance", "Gefahr", "Risiko", "Vorteil",
+    "Nachteil", "Kosten", "Preis", "Geld", "Einkommen", "Ausgabe", "Budget",
+    "Gewinn", "Verlust", "Wert", "Qualität", "Menge", "Größe", "Gewicht",
+    "Farbe", "Form", "Material", "Stoff", "Kunst", "Kultur", "Geschichte",
+    "Politik", "Wirtschaft", "Gesellschaft", "Familie", "Eltern", "Vater",
+    "Spielzeug", "Wolke", "Spanien", "Deutschland", "Europa", "Amerika",
+    "Afrika", "Asien", "Ozeanien", "Land", "Staat", "Regierung", "Partei",
+    "Politiker", "Präsident", "König", "Königin", "Kaiser", "Kaiserin",
+]
+
+adjektive = [
+    "gut", "schlecht", "groß", "klein", "hoch", "niedrig", "lang", "kurz",
+    "schnell", "langsam", "teuer", "billig", "schön","alt", "jung", "neu",
+    "altmodisch", "modern", "früh", "spät", "leicht", "schwer", "einfach",
+    "schwierig", "interessant", "langweilig", "richtig", "falsch", "klar",
+    "unklar", "sauber", "schmutzig", "hell", "dunkel", "warm", "kalt", "trocken",
+    "nass", "gesund", "krank", "stark", "schwach", "fröhlich", "traurig",
+    "glücklich", "unglücklich", "zufrieden", "unzufrieden", "sicher", "gefährlich",
+    "ruhig", "laut", "schön", "günstig", "ungünstig", "frei", "besetzt", "leer",
+    "voll", "richtig", "falsch", "bekannt", "unbekannt", "möglich", "unmöglich",
+    "wichtig", "unwichtig", "einfach", "schwierig", "interessant", "langweilig",
+]
